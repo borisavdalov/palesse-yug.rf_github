@@ -1,0 +1,10 @@
+.header__block_right {
+    column-gap: 8px;
+
+}
+
+@media screen and (min-width: 1440px) {
+    .header__block_right {
+        display: flex;
+    }
+}

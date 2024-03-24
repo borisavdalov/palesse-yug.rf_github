@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>palesse-yug</title>
+    <link rel="stylesheet" href="./pages/index.css">
+</head>
+<body class="body">
+    <div class="page__main">
+        <header class="header">
+            <!--Левый блок header -->
+            <div class="header__block header__block_left">
+                <!-- Логотип -->
+                <a class="header__logo"><img src="./images/header/__logo/header__logo.svg" alt="" class="header__logo_img"></a>
+                <!-- Вертиувльная серия линия в левом блоке header -->
+                <svg class="header__line" xmlns="http://www.w3.org/2000/svg" width="3" height="48" viewBox="0 0 3 48" fill="none">
+                    <path d="M1.88232 0V48" stroke="#0F131B" stroke-opacity="0.2" style="stroke:#0F131B;stroke:color(display-p3 0.0588 0.0745 0.1059);stroke-opacity:0.2;" stroke-width="2"/>
+                </svg>
+                <!-- Номер телефона и время когда можно звонить-->
+                <div class="header__phone-number">
+                    <a header__phone-number_link class="header__phone-number_link" href="tel:+79186231511">8 918 623 15 11</a>
+                    <p class="header__phone-number_text">звоните с 8:00 до 17:00</p>
+                </div>
+            </div>
+            <!--Правый блок header -->
+            <div class="header__block header__block_right">
+                <!-- Кнопка написать на whatsapp на большом экране -->
+                <a target="_blank" href="https://wa.me/+79186231511?text=Здравствуй,%20хочу%20получить%20цену%20на%20комбайн" class="header__block_whatsapp">
+                    <svg class="header__block_whatsapp_logo" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M19.05 4.91006C18.1332 3.98399 17.0412 3.24973 15.8377 2.75011C14.6341 2.25049 13.3432 1.99552 12.04 2.00006C6.58005 2.00006 2.13005 6.45006 2.13005 11.9101C2.13005 13.6601 2.59005 15.3601 3.45005 16.8601L2.05005 22.0001L7.30005 20.6201C8.75005 21.4101 10.38 21.8301 12.04 21.8301C17.5 21.8301 21.9501 17.3801 21.9501 11.9201C21.9501 9.27006 20.92 6.78006 19.05 4.91006ZM12.04 20.1501C10.56 20.1501 9.11005 19.7501 7.84005 19.0001L7.54005 18.8201L4.42005 19.6401L5.25005 16.6001L5.05005 16.2901C4.2278 14.977 3.79119 13.4593 3.79005 11.9101C3.79005 7.37006 7.49005 3.67006 12.03 3.67006C14.23 3.67006 16.3 4.53006 17.85 6.09006C18.6175 6.85402 19.2257 7.76272 19.6394 8.76348C20.0531 9.76425 20.2641 10.8372 20.26 11.9201C20.2801 16.4601 16.58 20.1501 12.04 20.1501ZM16.56 13.9901C16.31 13.8701 15.09 13.2701 14.87 13.1801C14.64 13.1001 14.48 13.0601 14.31 13.3001C14.14 13.5501 13.67 14.1101 13.53 14.2701C13.39 14.4401 13.24 14.4601 12.99 14.3301C12.74 14.2101 11.94 13.9401 11 13.1001C10.26 12.4401 9.77005 11.6301 9.62005 11.3801C9.48005 11.1301 9.60005 11.0001 9.73005 10.8701C9.84005 10.7601 9.98005 10.5801 10.1 10.4401C10.22 10.3001 10.27 10.1901 10.35 10.0301C10.43 9.86006 10.39 9.72006 10.33 9.60006C10.27 9.48006 9.77005 8.26006 9.57005 7.76006C9.37005 7.28006 9.16005 7.34006 9.01005 7.33006H8.53005C8.36005 7.33006 8.10005 7.39006 7.87005 7.64006C7.65005 7.89006 7.01005 8.49006 7.01005 9.71006C7.01005 10.9301 7.90005 12.1101 8.02005 12.2701C8.14005 12.4401 9.77005 14.9401 12.25 16.0101C12.84 16.2701 13.3 16.4201 13.66 16.5301C14.25 16.7201 14.79 16.6901 15.22 16.6301C15.7 16.5601 16.69 16.0301 16.89 15.4501C17.1 14.8701 17.1 14.3801 17.03 14.2701C16.96 14.1601 16.81 14.1101 16.56 13.9901Z" fill="#A52E2E" style="fill:#A52E2E;fill:color(display-p3 0.6479 0.1802 0.1802);fill-opacity:1;"/>
+                    </svg> Написать в WhatsApp
+                </a>
+                <!-- Кнопка Рассчитать стоимость со ссылкой на низ страницы -->
+                <a href="#" class="header__block_calculate-cost">Рассчитать стоимость</a>
+                <!-- Кнопка с картинкой телефона на маленьком экране -->
+                <a class="header__block_phone" href="tel:+79186231511">
+                    <svg class="header__block_phone_logo" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+                        <path d="M1.25 5.75C1.25 14.034 7.966 20.75 16.25 20.75H18.5C19.0967 20.75 19.669 20.5129 20.091 20.091C20.5129 19.669 20.75 19.0967 20.75 18.5V17.128C20.75 16.612 20.399 16.162 19.898 16.037L15.475 14.931C15.035 14.821 14.573 14.986 14.302 15.348L13.332 16.641C13.05 17.017 12.563 17.183 12.122 17.021C10.4849 16.4191 8.99815 15.4686 7.76478 14.2352C6.53141 13.0018 5.58087 11.5151 4.979 9.878C4.817 9.437 4.983 8.95 5.359 8.668L6.652 7.698C7.015 7.427 7.179 6.964 7.069 6.525L5.963 2.102C5.90214 1.85869 5.76172 1.6427 5.56405 1.48834C5.36638 1.33397 5.1228 1.25008 4.872 1.25H3.5C2.90326 1.25 2.33097 1.48705 1.90901 1.90901C1.48705 2.33097 1.25 2.90326 1.25 3.5V5.75Z" stroke="white" style="stroke:white;stroke-opacity:1;" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </a>
+                <!-- Кнопка меню на маленьком экране в правой части header -->
+                <button class="header__button_menu">
+                    <svg class="header__button_menu_logo" xmlns="http://www.w3.org/2000/svg" width="18" height="12" viewBox="0 0 18 12" fill="none">
+                        <path d="M0.75 0.75H17.25M0.75 6H17.25M0.75 11.25H17.25" stroke="#0F131B" style="stroke:#0F131B;stroke:color(display-p3 0.0588 0.0745 0.1059);stroke-opacity:1;" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+            </div>
+        </header>
+        
+        <main class="content">
+            <section class="ofer">
+                <img src="./images/ofer/ofer__img.png" alt="" class="ofer__img">
+                <div class="ofer__block">
+                    <h1 class="ofer__title">Комбайны по ценам от производителей</h1>
+                    <p class="ofer__subtitle">Зерноуборочные, початкоуборочные и кормоуборочные сельскохозяйственные комбайны на выгодных условиях</p>
+                    <a href="#" class="ofer__button ofer__button_combines">Выбрать комбайн</a>
+                    <a href="#" class="ofer__button ofer__button_price">Рассчитать стоимость</a>
+                </div>
+            </section>
+            <div class="compain">
+                <ul class="compain__lists">
+                    <li class="compain__list">
+                        <h3 class="compain__list_title">5700+</h3>
+                        <p class="compain__list_text">клиентов выбрали нас и остались довольны</p>
+                    </li>
+                    <li class="compain__list">
+                        <h3 class="compain__list_title">3500+</h3>
+                        <p class="compain__list_text">моделей сельхозтехники в ассортименте, а также запчасти и услуги сервисного центра</p>
+                    </li>
+                    <li class="compain__list">
+                        <h3 class="compain__list_title">9+</h3>
+                        <p class="compain__list_text">лет на рынке и знаем всю специфику, мы — профи в своей деятельности и нам можно доверять</p>
+                    </li>
+                    <li class="compain__list">
+                        <h3 class="compain__list_title">2200+</h3>
+                        <p class="compain__list_text">товаропроизводителей выбрали нас за годы работы</p>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="wrapper">
+            
+                <ul class="carousel">
+                  <li class="card">
+                    <div class="img"><img src="#" alt="img" draggable="false"></div>
+                    <h2>Blanche Pearson</h2>
+                    <span>Sales Manager</span>
+                  </li>
+                  <li class="card">
+                    <div class="img"><img src="#" alt="img" draggable="false"></div>
+                    <h2>Joenas Brauers</h2>
+                    <span>Web Developer</span>
+                  </li>
+                  <li class="card">
+                    <div class="img"><img src="#" alt="img" draggable="false"></div>
+                    <h2>Lariach French</h2>
+                    <span>Online Teacher</span>
+                  </li>
+                  <li class="card">
+                    <div class="img"><img src="#" alt="img" draggable="false"></div>
+                    <h2>James Khosravi</h2>
+                    <span>Freelancer</span>
+                  </li>
+                  <li class="card">
+                    <div class="img"><img src="#" alt="img" draggable="false"></div>
+                    <h2>Kristina Zasiadko</h2>
+                    <span>Bank Manager</span>
+                  </li>
+                  <li class="card">
+                    <div class="img"><img src="#" alt="img" draggable="false"></div>
+                    <h2>Donald Horton</h2>
+                    <span>App Designer</span>
+                  </li>
+                </ul>
+                
+              </div>
+        </main>
+    </div>
+    
+    <script src="./scripts/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+.header__phone-number {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .header__phone-number {
+        display: block;
+    }
+}

@@ -1,0 +1,149 @@
+@import url(../vendor/fonts/releway.css);
+@import url(../vendor/normalize.css);
+
+@import url(../blocks/body/body.css);
+@import url(../blocks/body/body.css);
+
+@import url(../blocks/width/width.css);
+
+@import url(../blocks/page/__contacts/page__contacts.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/__menu/_item/header__menu_item.css);
+@import url(../blocks/header/__button/header__button.css);
+@import url(../blocks/header/__button/_img/header__button_img.css);
+@import url(../blocks/header/__contactUs/header__contactUs.css);
+@import url(../blocks/header/__contactUs/_text/header__contactUs_text.css);
+
+@import url(../blocks/content/__contacts/content__contacts.css);
+
+@import url(../blocks/content/__contacts/_title/content__contacts_title.css);
+@import url(../blocks/employees/__list/employees__list.css);
+@import url(../blocks/employees/__title/employees__title.css);
+@import url(../blocks/employees/__title/_text/employees__title_text.css);
+@import url(../blocks/employees/__title/_button/employees__title_button.css);
+@import url(../blocks/employees/__title/_button/_open/employees__title_button_open.css);
+@import url(../blocks/employees/__title/_button/_close/employees__title_button_close.css);
+@import url(../blocks/employees/);
+@import url(../blocks/);
+@import url(../blocks/);
+@import url(../blocks/);
+@import url(../blocks/);
+
+
+/* employees */
+
+.employees {
+
+}
+
+.employees__subtitle {
+
+}
+
+
+.employees__cards {
+
+}
+
+.employees__cards_flex {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 16px;
+}
+
+.employees__cards_big {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 32px;
+}
+
+.employees__cards_small {
+}
+
+
+.employees__card {
+
+}
+
+.employees__size-card_big {
+    width: 100%;
+}
+
+@media screen and (min-width: 501px) {
+    .employees__size-card_big {
+        width: 41.66666667vw;
+    }
+}
+
+@media screen and (min-width: 830.4px) {
+    .employees__size-card_big {
+        width: 346px;
+    }
+}
+
+.employees__size-card_small {
+    max-width: 145px;
+}
+
+@media screen and (min-width: 768px) {
+    .employees__size-card_small {
+        width: 18.88020833vw;
+    }
+}
+
+@media screen and (min-width: 873.9310345px) {
+    .employees__size-card_small {
+        width: 165px;
+    }
+}
+.employees__card_img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.employees__card_img_big {
+
+}
+
+@media screen and (min-width: 501px) {
+    .employees__card_img_big {
+        max-height: 35.15625vw;
+    }
+}
+
+@media screen and (min-width: 853.3333333px) {
+    .employees__card_img_big {
+        max-height: 300px;
+    }
+}
+
+.employees__card_img_small {
+    max-height: 158px;
+}
+
+@media screen and (min-width: 768px) {
+    .employees__card_img_small {
+        max-height: 20.57291667vw;
+    }
+}
+
+@media screen and (min-width: 874.9367089px) {
+    .employees__card_img_small {
+        max-height: 180px;
+    }
+}
+
+.employees__card_name {
+
+}
+
+.employees__card_post {
+
+}
+
+.employees__card_phone {
+
+}

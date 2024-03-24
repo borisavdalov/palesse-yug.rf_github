@@ -1,0 +1,170 @@
+.compain-info {
+    background-color: #F1F4FF;
+}
+.compain-info__img {
+    background-color: antiquewhite;
+    width: 100%;
+    height: 80.26666667vw;
+    max-height: 533px;
+}
+
+@media screen and (min-width: 768px) {
+    .compain-info__img {
+        height: 69.40104167vw;
+        max-height: 705px;
+    }
+}
+
+.compain-info__main {
+    /* background-color: #F1F4FF; */
+    background-color: greenyellow;
+    border-radius: 10px 10px 0 0;
+    width: calc(100vw - (7.466666667vw * 2));
+    margin: auto;
+}
+
+@media screen and (min-width: 522.3214286px) {
+    .compain-info__main {
+        margin-left: 39px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .compain-info__main {
+        width: 68.22916667vw;
+        max-width: 715px;
+    }
+}
+
+@media screen and (min-width: 1188px) {
+    .compain-info__main {
+        margin-left: calc((100vw - 1110px)/2);
+    }
+}
+
+@media screen and (min-width: 1221.818182px) {
+    .compain-info__main {
+
+    }
+}
+
+.compain-info__main_title {
+    font-family: Raleway;
+    font-size: 5.866666667vw;
+    font-weight: 700;
+    line-height: 7.04vw;
+    letter-spacing: 0em;
+    text-align: left;
+    
+    color: #F24957;
+
+    padding: 40px 33px 8px 33px;
+}
+
+@media screen and (min-width: 477.2727273px) {
+    .compain-info__main_title {
+        font-size: 28px;
+        line-height: 33.6px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .compain-info__main_title {
+        font-size: 3.645833333vw;
+        line-height: 4.375vw;
+    }
+}
+
+@media screen and (min-width: 987.4285714px) {
+    .compain-info__main_title {
+        font-size: 36px;
+        line-height: 43.2px;
+    }
+}
+
+.compain-info__main_subtitle {
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+    color: #232222;
+
+    padding: 0px 33px 40px;
+}
+
+@media screen and (min-width: 768px) {
+    .compain-info__main_subtitle {
+        font-size: 2.083333333vw;
+        line-height: 2.916666667vw;
+    }
+}
+
+@media screen and (min-width: 1152px) {
+    .compain-info__main_subtitle {
+        font-size: 24px;
+        line-height: 28.8px;
+    }
+}
+
+.compain-info__cards {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.compain-info__card {
+
+}
+
+.compain-info__card_title {
+    font-family: Raleway;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color: #2d2d2d;
+}
+
+@media screen and (min-width: 768px) {
+    .compain-info__card_title {
+        font-size: 5.208333333vw;
+        line-height: 6.114583333vw;
+    }
+}
+
+@media screen and (min-width: 1228.8px) {
+    .compain-info__card_title {
+        font-size: 64px;
+        line-height: 75.14px;
+    }
+}
+
+.compain-nfo__card_subtitle {
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    color: #2D2D2D;
+}
+
+@media screen and (min-width: 768px) {
+    .compain-info__card_subtitle {
+        font-size: 2.083333333vw;
+        line-height: 2.916666667vw;
+    }
+}
+
+@media screen and (min-width: 864px) {
+    .compain-info__card_subtitle {
+        font-size: 18px;
+        line-height: 25.2px;
+    }
+}

@@ -1,0 +1,14 @@
+.header__button_menu {
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 100px;
+    background: #EEE;;
+}
+
+@media screen and (min-width: 1024px) {
+    .header__button_menu{
+        display: none;
+    }
+}

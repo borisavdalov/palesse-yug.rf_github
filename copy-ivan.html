@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRID</title>
+    <link rel="stylesheet" href="./pages/grid.css">
+</head>
+<body class="body">
+    <div class="page__contacts">
+        <header class="width header">
+            <a href="#" class="header__logo">
+                <img class="header__logo_img" src="./images/logo/image 48.png" alt="">
+            </a>
+
+            <ul class="header__menu">
+                <li class="header__menu_item">О компании</li>
+                <li class="header__menu_item">Каталог</li>
+                <li class="header__menu_item">Сервич</li>
+                <li class="header__menu_item">Запчасти</li>
+                <li class="header__menu_item">Способы приобретения</li>
+                <li class="header__menu_item">Контакты</li>
+            </ul>
+
+            <button class="header__button"><img src="./images/header/__menu/Burger.png" alt="Кнопка - меню сайта" class="header__button_img"></button>
+            <a href="#" class="header__contactUs"><p class="header__contactUs_text">Связаться с нами</p></a>
+        </header>
+    </div>
+
+    <main class="contacts">
+        <h1 class="contacts__title">Контакты</h1>
+        <section class="contacts-accordion">
+            <article class="contacts-accordion__item">
+                <button class="contacts-accordion__btn">Отдел полнокомплектной техники
+                    <p class="accordion-cross accordion-cross-active">
+                        <span class="accordion-cross__line "></span>
+                    </p>
+                </button>
+                <div class="contacts-accordion__content accor-active">
+                    <div class="items-section">
+                        <div class="district">
+                            <div class="district__inner">
+                                <article class="card-item big-card">
+                                    <img src="./images/employees/Сидякин2.jpg" alt="" class="card-item__photo">
+                                    <h4 class="card-item__name">Сидякин Антон</h4>
+                                    <p class="card-item__position">Заместитель генерального директора <br></p>
+                                    <a class="card-item__phone" href="tel:+7954708800">+7 (905) 470 88-00</a>
+                                </article>
+
+                                <article class="card-item big-card">
+                                    <img src="./images/employees/Сидякин2.jpg" alt="" class="card-item__photo">
+                                    <h4 class="card-item__name">Трудков Евгений</h4>
+                                    <p class="card-item__position">Руководитель Ставропольского подразделения<br></p>
+                                    <a class="card-item__phone" href="tel:+7954708800">+7 (962) 441 99-49</a>
+                                </article>
+                            </div>
+                        </div>
+                        <div class="district">
+                            <div class="district__title">Краснодарский край</div>
+                            <div class="district__inner district-mini">
+                                <article class="card-item">
+                                    <picture><img src="./images/employees/Дзюба.jpg" alt="" class="card-item__photo"></picture>
+                                    <h4 class="card-item__name">
+                                        <p>Александр</p>
+                                        <p>Дзюба</p>
+                                    </h4>
+                                    <p class="card-item__position">Специалист отдела продаж</p>
+                                    <a class="employees__card_phone" href="tel:+79054955885">+7 (905) 495 58-85</a>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+</body>
+</html>

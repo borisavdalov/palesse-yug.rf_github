@@ -1,0 +1,15 @@
+.header__line {
+    display: none;
+
+    width: 3px;
+    height: 48px;
+    stroke: rgba(14, 19, 28, 0.20);
+    stroke-width: 2px;
+    stroke: color(display-p3 0.0588 0.0745 0.1059 / 0.20);
+}
+
+@media screen and (min-width: 1024px) {
+    .header__line {
+        display: block;
+    }
+}

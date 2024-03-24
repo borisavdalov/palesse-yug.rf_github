@@ -1,0 +1,9 @@
+.header__phone-number_text {
+    color: rgba(14, 19, 28, 0.60);
+    color: color(display-p3 0.0588 0.0745 0.1059 / 0.60);
+    font-family: Onest;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; /* 114.286% */
+}
